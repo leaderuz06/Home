@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url('./back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    margin: 30px auto;
+    width: 1200px;
+    padding: 30px 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.main_section{
+    display: flex;
+}
+
+.main_section_card{
+    width: 50%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px 0 0 20px;
+}
+
+.main_section_card_2{
+    width: 50%;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 0 20px 20px 0;
+}
+
+.main_section_card img{
+    width: 486px;
+    height: 315px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+.item{
+    margin: 0 15px;
+    color: blue;
+    font-size: 25px;
+}
+
+.main_section_list{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main_section_card-title{
+    padding: 20px;
+    text-transform: uppercase;
+    line-height: 50px;
+    color: blue;
+    font-family: 'Times New Roman';
+    line-height: 30px;
+    font-size: 22px;
+}
+
+.main_section_card_2_title{
+    color: blue;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main_section_card_2_introduction{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.main_section_card_2_introduction span{
+    color: blue;
+}
+
+.main_section_card_2_describe{
+    font-size: 20px;
+    width: 500px;
+}
+
+.button{
+    width: 300px;
+    height: 50px;
+    background-color: #1345F9;
+    color: white;
+    border-radius: 20px;
+    font-size: 25px;
+    margin: 30px;
+    font-family: 'Sansation';
+    text-transform: capitalize;
+}
